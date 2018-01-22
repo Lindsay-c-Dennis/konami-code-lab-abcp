@@ -4,7 +4,7 @@ function init() {
 keys = [];
 
 document.addEventListener("keydown" keysPressed(e) {
-  keys.push(e.which);
+  keys[e.which] = true;
 }
 if (keys === code) {
   alert("Hooray!");
