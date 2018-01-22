@@ -19,6 +19,6 @@ function  onKeyDownHandler(e) {
   }
 }
 
-document.addEventListener("Keydown", onKeyDownHandler(e))
+document.addEventListener("Keydown", onKeyDownHandler(e));
   
 }
