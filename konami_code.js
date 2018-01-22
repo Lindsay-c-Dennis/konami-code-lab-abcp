@@ -21,6 +21,6 @@ function onKeyDownHandler(e) {
     index = 0;
   }
 }
-  
+document.body.addEventListener("keydown", onKeyDownHandler, false);  
 }
 init();
