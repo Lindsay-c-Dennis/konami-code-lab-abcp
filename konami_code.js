@@ -4,7 +4,7 @@ function init() {
 keys = [];
 
 function keysPressed(e) {
-  
+  keys.push()
 }
   
   
